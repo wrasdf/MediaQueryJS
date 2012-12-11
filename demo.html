@@ -58,9 +58,7 @@
         // If true, defers execution of the setup function
         // until the first media query is matched (still just once)
         deferSetup : true           
-      }).listen(10);
-
-      enquire.register("screen and (min-width: 640px)", {
+      }).register("screen and (min-width: 640px)", {
 
         // REQUIRED
         // Triggered when the media query transitions
